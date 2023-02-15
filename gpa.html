@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="gpa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p class="quote">"Desire is the starting point of all achievement." -  <a class="italic">Napolean Hill</a></p>
+        <p class="head">GPA Calculator </p> 
+    </header>
+    <div class="gpa">  
+        <div class="child calculator">
+            <p class="calc-text">Enter Grades</p>
+            <label for = 'class-1' class="label">Class #1:</label> <input type="text" class="input class-1" name="class-1" maxlength="1"/> <button class="btn hnr-1" type="button">Honors/Advanced</button> <br>
+            <label for = 'class-2' class="label">Class #2:</label> <input type="text" class="input class-2" name="class-2" maxlength="1"/> <button class="btn hnr-2" type="button">Honors/Advanced</button> <br>
+            <label for = 'class-3' class="label">Class #3:</label> <input type="text" class="input class-3" name="class-3" maxlength="1"/> <button class="btn hnr-3" type="button">Honors/Advanced</button> <br>
+            <label for = 'class-4' class="label">Class #4:</label> <input type="text" class="input class-4" name="class-4" maxlength="1"/> <button class="btn hnr-4" type="button">Honors/Advanced</button> <br>
+            <label for = 'class-5' class="label">Class #5:</label> <input type="text" class="input class-5" name="class-5" maxlength="1"/> <button class="btn hnr-5" type="button">Honors/Advanced</button> <br>
+            <label for = 'class-6' class="label">Class #6:</label> <input type="text" class="input class-6" name="class-6" maxlength="1"/> <button class="btn hnr-6" type="button">Honors/Advanced</button> <br>
+            <button class="btn submit" type="button">Calculate GPA</button>
+        </div>
+        <div class="child results">
+            <p class="your-gpa">Your GPA is...</p>
+            <p class="calc-gpa"></p>
+        </div>
+    </div>
+    <script src="gpa.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(122, 111, 73);
+    color: white;
+}
+
+.italic {
+    font-style: italic
+}
+
+.head {
+    width: 100%;
+    font-size: 20px;
+}
+
+.quote {
+    margin-right: zero;
+    float: right;
+    font-size: 12.5px;
+    margin: 7.5px
+}
+
+header {
+    padding: 5px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+
+.input {
+    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-width: 0px;
+    border-bottom-width: 0.5px;
+    width: 50px;
+    text-align: center;
+    outline: none;
+    font-family: inherit;
+    background-color: rgb(0,0,0,0);
+    border-color: white;
+    color: white;
+    font-size: 25px;
+}
+
+.calc-text {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.label {
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.gpa {
+    padding: 20px;
+}
+
+.child {
+    float: left;
+    width: 50%;
+}
+
+.calculator {
+    padding: 5px;
+}
+
+.results {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.btn {
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: rgba(43, 43, 43, 0.25);
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: rgba(43, 43, 43, 0.5);
+}
+
+.submit {
+    font-size: 50px;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.calc-gpa {
+    font-size: 125px;
+    margin: 25px;
+}

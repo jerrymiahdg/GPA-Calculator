@@ -35,15 +35,15 @@ let gpa = 0
 const grades = []
 
 const gradeToNumber = function(i) {
-    if(classes[i].value == 'a') {
+    if(classes[i].value == 'a' || classes[i].value == 'A') {
         if(hnrBoolean[i]) {return 5} else {return 4}
-    } else if(classes[i].value == 'b') {
+    } else if(classes[i].value == 'b' || classes[i].value == 'B') {
         if(hnrBoolean[i]) {return 4} else {return 3}
-    } else if(classes[i].value == 'c') {
+    } else if(classes[i].value == 'c' || classes[i].value == 'C') {
         if(hnrBoolean[i]) {return 3} else {return 2}
-    } else if(classes[i].value == 'd') {
+    } else if(classes[i].value == 'd' || classes[i].value == 'D') {
         if(hnrBoolean[i]) {return 2} else {return 1}
-    } else if(classes[i].value == 'f') {
+    } else if(classes[i].value == 'f' || classes[i].value == 'F') {
         if(hnrBoolean[i]) {return 1} else {return 0}
     } else {
         return 'noGrade'

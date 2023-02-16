@@ -82,14 +82,15 @@ header {
     padding: 10px;
     border-radius: 10px;
     border-width: 0px;
-    background-color: rgba(43, 43, 43, 0.25);
+    background-color: rgba(43, 43, 43, 0);
     cursor: pointer;
-    color: white;
+    color: rgba(255, 255, 255, 0.25);
     font-size: 25px;
+    margin: -10px;
 }
 
 .btn:hover {
-    background-color: rgba(43, 43, 43, 0.5);
+    background-color: rgba(43, 43, 43, 0.125);
 }
 
 .submit {
@@ -97,9 +98,14 @@ header {
     margin: 15px;
     border-radius: 20px;
     padding: 20px;
+    color: white;
 }
 
 .calc-gpa {
     font-size: 125px;
     margin: 25px;
+}
+
+.weight {
+    color: rgb(101, 135, 209);
 }
